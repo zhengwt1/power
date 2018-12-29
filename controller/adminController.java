@@ -8,6 +8,7 @@ public class adminController {
 
     @RequestMapping("/")
     public String index(){
+        System.out.print("000");
         return "test.html";
     }
 
